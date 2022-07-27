@@ -1,0 +1,51 @@
+ext {
+    // SDK And Tools
+    minSdkVersion = 24
+    targetSdkVersion = 28
+    compileSdkVersion = 32
+    buildToolsVersion = "28.0.3"
+
+    kotlin_version = '1.4.10'
+    supportVersion = "28.0.0"
+
+    //  {zh} 依赖的support库  {en} Dependent support libraries
+    support = [
+            "design"               : "com.android.support:design:${supportVersion}",
+            "viewpager"            : "com.android.support:viewpager:${supportVersion}",
+            "support-v4"           : "com.android.support:support-v4:${supportVersion}",
+            "support-v13"          : "com.android.support:support-v13:${supportVersion}",
+            "appcompat-v7"         : "com.android.support:appcompat-v7:${supportVersion}",
+            "recyclerview-v7"      : "com.android.support:recyclerview-v7:${supportVersion}",
+            "support-fragment"     : "com.android.support:support-fragment:${supportVersion}",
+            "constraint-layout"    : "com.android.support.constraint:constraint-layout:1.1.3",
+            "localbroadcastmanager": "com.android.support:localbroadcastmanager:${supportVersion}",
+            "swiperefreshlayout": "com.android.support:swiperefreshlayout:${supportVersion}",
+    ]
+
+    // {zh} 依赖的第三方库 {en} Dependent third-party libraries
+    dependencies = [
+            "gson"              : "com.google.code.gson:gson:2.7",
+            "MVVMHabit"         : "com.github.goldze:MVVMHabit:3.1.4",
+            "arouter-api"       : "com.alibaba:arouter-api:1.4.1",
+            "arouter-compiler"  : "com.alibaba:arouter-compiler:1.2.2",
+            "butterknife"       : "com.jakewharton:butterknife:8.5.1",
+            "butterknife-compiler": "com.jakewharton:butterknife-compiler:8.5.1",
+            "zxing"             : "com.google.zxing:core:3.3.3",
+            "glide"             : "com.github.bumptech.glide:glide:4.3.0",
+            "bugly"             : "com.tencent.bugly:crashreport:latest.release",
+            "mediapicker"       : "com.dmcBig.focus:mediapicker:4.7",
+            "easy-permission"   : "pub.devrel:easypermissions:1.0.0",
+            "okhttp"            : "com.squareup.okhttp3:okhttp:3.10.0",
+            "leakcanary-debug"  : "com.squareup.leakcanary:leakcanary-android:1.6.3",
+            "leakcanary-release": "com.squareup.leakcanary:leakcanary-android-no-op:1.6.3",
+            "smoothprogressbar" : "com.github.castorflex.smoothprogressbar:library:1.1.0",
+            "photoView"         : "com.github.chrisbanes.photoview:library:1.2.4",
+            "lottie"              : "com.airbnb.android:lottie:2.7.0",
+    ]
+
+    //  {zh} 依赖的内部库  {en} Dependent internal libraries
+    versions = [
+            "vesdk":  "8.6.0.241",
+            nleplatform  : '1.1.0-alpha.194',
+    ]
+}
