@@ -5,7 +5,7 @@ A simple camera app implementing Camera2 API and BytePlus Effects Java SDK to sh
 * a sunglass AR try-on
 * a makeup sticker (lipstick)
 
-The repository is meant for Android developers to reference and learn how to start with BytePlus Effect SDK integration quickly.
+The repository is meant for Android developers to reference and learn how to start with BytePlus Effects SDK integration quickly.
 
 # Code Structure #
 The integration source code can be found at:
@@ -20,10 +20,10 @@ The key source code to look at are:
 
 In addition, you'd need to request for the following resources at BytePlus team to include into the project and start testing:
 
-* an Effect SDK trial license bag, to put at `app/src/main/assets/resource/`
+* an Effects SDK trial license bag, to put at `app/src/main/assets/resource/`
 * the SDK library (an `AAR` binary), to put at `app/libs/`
-* the Effect `core` folder containing helper functions, to put at `app/src/main/java/com/bytedance/labcv/`
-* the Effect bundle resource assets, to put at `app/src/main/assets/resource/`
+* the Effects SDK's `core` folder containing helper functions, to put at `app/src/main/java/com/bytedance/labcv/`
+* the Effects bundle resource assets, to put at `app/src/main/assets/resource/`
 
 # Getting Started #
 Follow the steps below in order to run and test this demo project:
@@ -42,7 +42,7 @@ In order to minimize the code size and make the integration code easy to follow,
 - UI/UX is simple and functional for demo only
 - Some edge case error handling may not be included yet
 
-Yet we'd like to clarify that the above are limitations of how the project is implemented, NOT the limitations from the Effect SDK.
+Yet we'd like to clarify that the above are limitations of how the project is implemented, NOT the limitations from the Effects SDK.
 
 If you'd like to see a full-fledged demo, please request for such at BytePlus team too.
 
