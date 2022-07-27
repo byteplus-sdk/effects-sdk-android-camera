@@ -48,4 +48,4 @@ If you'd like to see a full-fledged demo, please request for such at BytePlus te
 
 # Contact #
 
-- 
+Xiaoyu Chen - BytePlus AI2B Solution Manager: chenxiaoyu.1006@bytedance.com 
